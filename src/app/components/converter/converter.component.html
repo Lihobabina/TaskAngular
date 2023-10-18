@@ -1,0 +1,13 @@
+<input type="text" placeholder="Amount" [(ngModel)]="input" (ngModelChange)="convertCurrency()">
+<select name="" id="" [(ngModel)]="selectedCurrency1" (change)="convertCurrency()">
+  <option value="UAH">UAH</option>
+  <option value="USD">USD</option>
+  <option value="EUR">EUR</option>
+</select>
+<img src="assets/images/arrows.png" alt="">
+<input type="text" placeholder="Converted" [(ngModel)]="output" (ngModelChange)="reverseConvertCurrency()">
+<select name="" id="" [(ngModel)]="selectedCurrency2" (change)="convertCurrency()">
+  <option value="USD">USD</option>
+  <option value="EUR">EUR</option>
+  <option value="UAH">UAH</option>
+</select>

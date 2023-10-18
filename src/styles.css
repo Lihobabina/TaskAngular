@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2dafff;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+app-converter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
